@@ -1,0 +1,151 @@
+
+body{
+    background-image:url(doska-6.jpg);
+    /*background: #fc0;*/ 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    width:100%;
+    height:100%;
+    box-sizing: border-box;
+    position:static;
+    /*border: 10px solid #000;*/
+}
+main{
+    height:600px;
+}
+
+.block1{
+    position:relative;
+    width:100%;
+    /*background: #fc0;*/
+    padding: 0px;
+    /*border: 1px solid #000;*/
+    height:120px;
+}
+.name{
+    position:absolute;
+    top:10px;
+    left:0px;
+    padding: 0 500px;
+    font-size:150%;
+    color: #ffffff;
+    opacity:100%;
+    font-style: italic;
+    line-height: 50%;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 40px #fff,
+      0 0 80px rgb(145, 142, 142),
+      0 0 100px rgb(131, 100, 100);
+}
+.container { 
+    margin: 0px 15px 0 35px ;
+    display: flex;
+
+    /*border: 1px solid #000;*/
+}
+.container div {
+    font-size: 120%;
+    color: white;
+    opacity:90%;
+    margin: 0 0 -20px 0;
+  }
+.block2{
+    position:relative;
+    top:0;
+    left:0;
+    /*background: rgb(185, 236, 119);*/
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    /*border: 1px solid #000;*/
+}
+
+.education{
+    /*background: rgb(185, 236, 119);*/
+    opacity:100%;
+
+}
+.work-experience{
+    /*background: rgb(125, 236, 119);*/
+    opacity:100%;
+
+}
+
+.allskills{
+    position:relative;
+    top:-20px;
+    opacity:100%;
+    display: flex;
+    /*border: 1px solid #000;*/
+}
+.allskills div{
+    color: white;
+    opacity:100%;
+    font-size:100%;
+    margin-right: 30px;
+}
+.language{
+    padding: 0 0 0 20px;
+}
+li{
+    line-height:30%;
+}
+p{
+    line-height:100%;
+}
+
+
+.block3{
+    /*background: rgb(236, 119, 201);*/
+    margin: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid #000;*/
+}
+.photo {
+    padding: 0 0 0 0px;
+    width:65%;
+    opacity: 1;
+}
+.contacts{
+    position:relative;
+    left: 20px;
+    font-size:150%;
+    opacity:80%;
+}
+.contacts p{
+    line-height: 30%;
+}
+h3{
+    line-height:30%;
+}
+h4{
+    line-height:100%;
+}
+.link {
+    position:relative;
+    top:30px;
+    width:100%;
+    opacity: 1;
+    display:flex;
+}
+.link div{
+    width:10%;
+    opacity: 1;
+    line-height: 100%;
+}
+.links {
+   position:relative;
+   left:30px;
+}
+.links2 {
+    position:relative;
+    left:120px;
+}
+.llink:hover{
+    z-index:10;
+    transform:scale(1.5);
+}
